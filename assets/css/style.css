@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Amatic+SC:wght@400;700&family=Comforter+Brush&family=DynaPuff:wght@600&family=Gemunu+Libre&family=Oswald&family=Righteous&family=Roboto:ital,wght@1,300&family=Sawarabi+Mincho&family=Ubuntu+Mono&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Amatic+SC:wght@400;700&family=Comforter+Brush&family=DynaPuff:wght@600&family=Gemunu+Libre&family=Merriweather:wght@700&family=Oswald&family=Righteous&family=Roboto:ital,wght@1,300&family=Sawarabi+Mincho&family=Ubuntu+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Amatic+SC:wght@400;700&family=Comforter+Brush&family=DynaPuff:wght@600&family=Gemunu+Libre&family=Merriweather:wght@700&family=Oswald&family=Playfair+Display:wght@500&family=Righteous&family=Roboto:ital,wght@1,300&family=Sawarabi+Mincho&family=Ubuntu+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 13%;
+    margin: 0px 0px 0px 24px;
+}
+
+.container {
+    display: flex;
+    height: fit-content;
+}
+
+.navLeft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+
+}
+
+.navRight {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 50%;
+    text-align: right;
+}
+
+ul {
+    display: flex;
+    margin: 0px 5% 0px 0px;
+}
+
+ul li {
+    list-style: none;
+    padding: 0px 30px 0px 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 12px;
+    font-family: 'Playfair Display', serif;
+    color: rgba(0, 0, 0, 0.751);
+    font-size: 22px;
+}
+
+
+li a:hover {
+    color: black;
+    background-color: rgba(182, 255, 231, 0.753);
+    border-radius: 5px;
+
+}
+
+.navBtn {
+    padding: 13px;
+    margin-right: 12%;
+    font-family: 'Playfair Display', serif;
+    background: none;
+    border: 2px solid rgb(0, 255, 153);
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+.navBtn:hover {
+    background-color: rgba(0, 255, 153, 0.452);
+    cursor: pointer;
+
+}
+
+label {
+    height: 22px;
+    width: 50px;
+    margin: 0px 40px 14px 0px;
+    position: relative;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 14px;
+
+}
+
+.lable:hover {
+
+    cursor: pointer;
+}
+
+.ball {
+    height: 18px;
+    width: 18px;
+    margin: 2px 0px 0px 2px;
+    background-color: rgb(0, 255, 153);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+input {
+    opacity: 0;
+}
+
+#checkbox:checked+.lable {
+
+    background-color: rgb(0, 0, 0);
+
+}
+
+#checkbox:checked+.lable .ball {
+
+    transform: translateX(28px);
+
+}
+
+main {
+    display: flex;
+    background-color: rgba(182, 255, 231, 0.753);
+    height: 86.5vh;
+
+}
+
+.title {
+    font-size: 50px;
+    margin: 8% 0% 0% 5%;
+    width: 44vw;
+    font-family: 'Merriweather', serif;
+}
+
+.para {
+    font-size: 24px;
+    margin: 2% 0 0 5%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+span {
+    color: rgb(244, 106, 88);
+}
+
+.mainBtn {
+    margin: 32px 0px 0px 40px;
+    padding: 13px;
+    font-family: 'Playfair Display', serif;
+    background: none;
+    border: 2px solid rgb(0, 255, 153);
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+.mainBtn:hover {
+    background-color: rgba(0, 255, 153, 0.452);
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1203px) {}
+
+/* Dark mode styles */
+.dark-mode #content {
+    background-color: rgb(34, 33, 33);
+}
+
+.dark-mode #headTitle {
+    color: wheat;
+}
+
+.dark-mode #headPara {
+    color: wheat;
+}
+
+.dark-mode #mainbtn1 {
+    color: wheat;
+}
+
+.dark-mode #mainbtn2 {
+    color: wheat;
+}
