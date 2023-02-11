@@ -37,9 +37,6 @@ But there is an option available during registration to support our cause.
 
 ### Built With
 
-- [Next.js](https://nextjs.org/docs)
-- [Tailwind CSS](https://tailwindcss.com/)
 - [Solidity](https://soliditylang.org/)
 - [Polygon](https://polygon.technology/)
-- [The Graph](https://thegraph.com/en/)
 - [Sign-in with Ethereum](https://login.xyz/)
